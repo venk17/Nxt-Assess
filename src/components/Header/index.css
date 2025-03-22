@@ -1,0 +1,75 @@
+.header {
+  background: #263868;
+
+  display: flex;
+  justify-content: space-between;
+  height: 62px;
+}
+.logo_container {
+  height: 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #e1e9ff;
+  text-decoration: none;
+  padding: 4px 0 0 4px;
+}
+.header_logo {
+  width: 54px;
+  height: 27px;
+  background-color: #e1e9ff;
+  margin-left: 13px;
+}
+.logo_heading {
+  width: 100px;
+  height: 11px;
+  font-family: Futura Md BT;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0.2px;
+  vertical-align: middle;
+  color: #ffffff;
+  padding-left: 3px;
+  padding-top: 2px;
+  margin-top: 2px;
+}
+.Logout_button {
+  border: 1px solid #f1f5f9;
+  width: 70px;
+  height: 30px;
+  margin: 17px 7px 0 0;
+  background: transparent;
+  border-radius: 8px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0%;
+  color: #f1f5f9;
+}
+.Logout_button:hover {
+  background-color: #264bb1;
+}
+
+/* Styles for mobile devices in landscape mode */
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  .logo_container {
+    margin-left: 1rem;
+  }
+}
+
+/* Styles for tablets in portrait mode */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .logo_container {
+    margin-left: 1rem;
+  }
+}
+/* Styles for tablets in landscape mode and small laptops */
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+  .logo_container {
+    margin-left: 1rem;
+  }
+}

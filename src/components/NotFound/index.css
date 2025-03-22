@@ -1,0 +1,38 @@
+.not-found-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.notfound_img {
+  min-width: 38%;
+  max-width: 90%;
+  min-height: 44%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.notfound_heading {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #475569;
+  position: absolute;
+  top: 63%;
+}
+.notfound_para {
+  font-family: HK Grotesk;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  width: 87%;
+  text-align: center;
+  color: #64748b;
+  position: absolute;
+  top: 73%;
+}

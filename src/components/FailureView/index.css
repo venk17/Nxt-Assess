@@ -1,0 +1,113 @@
+.failure-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  margin-top: 7rem;
+  height: 100vh;
+}
+
+/* Styles for mobile devices in portrait mode */
+
+.failure_image {
+  width: 328px;
+  height: 176px;
+}
+.failure_heading {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #475569;
+  margin: 24px 0;
+}
+.failure_para {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #64748b;
+}
+.retry_btn {
+  width: 93px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #164687;
+  font-family: HK Grotesk;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #ffffff;
+  border-style: none;
+  margin: 28px 0;
+}
+.retry_btn:hover {
+  background-color: #010f22;
+}
+
+/* Styles for mobile devices in landscape mode */
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+}
+
+/* Styles for tablets in portrait mode */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .failure_image {
+    width: 338px;
+    height: 180px;
+  }
+  .failure_heading {
+    font-size: 20px;
+  }
+  .failure_para {
+    font-size: 16px;
+  }
+}
+
+/* Styles for tablets in landscape mode and small laptops */
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+  .failure_image {
+    width: 348px;
+    height: 186px;
+  }
+  .failure_heading {
+    font-size: 24px;
+  }
+  .failure_para {
+    font-size: 19px;
+  }
+}
+
+/* Styles for laptops and desktops */
+@media only screen and (min-width: 1281px) and (max-width: 1440px) {
+  .failure_image {
+    width: 358px;
+    height: 192px;
+  }
+  .failure_heading {
+    font-size: 27px;
+  }
+  .failure_para {
+    font-size: 22px;
+  }
+}
+
+/* Styles for large desktops */
+
+@media only screen and (min-width: 1441px) {
+  .failure_image {
+    width: 373px;
+    height: 203px;
+  }
+  .failure_heading {
+    font-size: 32px;
+  }
+  .failure_para {
+    font-size: 27px;
+  }
+}
